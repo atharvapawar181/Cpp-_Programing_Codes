@@ -14,7 +14,13 @@ int main(){
 
   //Arrays using pointer
   //Here we had allocated a block of memory using int[]
-  
+  int *arr = new int[3];
+  arr[0] = 10;
+  arr[1] = 20;
+  arr[2] = 30;
+  cout<<"Value of 0 is "<<arr[0]<<endl;
+  cout<<"Value of 1 is "<<arr[1]<<endl;
+  cout<<"Value of 2 is "<<arr[2]<<endl;
 
 
   //delete operator 
